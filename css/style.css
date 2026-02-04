@@ -24,18 +24,20 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: var(--bg-body);
   color: var(--text-main);
-  line-height: 1.5;
-  padding: 80px 0;
-  min-height: 100vh;
+  min-height: 100dvh;
 }
 
 .slider-wrapper {
   position: relative;
   max-width: calc(var(--container-width) + (var(--nav-area-width) * 2));
   width: 100%;
+
   margin: 0 auto;
   padding: 0 var(--nav-area-width);
+
+  transform: translateY(calc(50dvh - 50%));
 }
+
 
 .slider-container {
   width: 100%;
