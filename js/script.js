@@ -1,9 +1,17 @@
-const swiper = new Swiper(".slide-content", {
+const swiper = new Swiper(".slider-container", {
   slidesPerView: 1,
   spaceBetween: 25,
   loop: true,
   grabCursor: true,
   centeredSlides: true,
+
+  a11y: {
+    prevSlideMessage: 'Previous slide',
+    nextSlideMessage: 'Next slide',
+    firstSlideMessage: 'This is the first slide',
+    lastSlideMessage: 'This is the last slide',
+    paginationBulletMessage: 'Go to slide {{index}}',
+  },
 
   pagination: {
     el: ".swiper-pagination",
@@ -17,11 +25,12 @@ const swiper = new Swiper(".slide-content", {
   },
 
   breakpoints: {
-    600: {
+    768: {
       slidesPerView: 2,
       centeredSlides: false,
+      spaceBetween: 20,
     },
-    950: {
+    1120: {
       slidesPerView: 3,
       centeredSlides: false,
       spaceBetween: 30,
