@@ -169,6 +169,8 @@ body {
 }
 
 .card__btn {
+  text-decoration: none;
+  display: inline-block;
   border: none;
   font-family: inherit;
   font-size: 0.9rem;
