@@ -1,10 +1,10 @@
 :root {
-  --primary-color: #4070f4;
-  --primary-hover: #265df2;
-  --bg-body: #efefef;
+  --primary-color: #2d6a4f;
+  --primary-hover: #1b4332;
+  --bg-body: #f4f1de;
   --bg-card: #ffffff;
-  --text-main: #333333;
-  --text-muted: #707070;
+  --text-main: #3d405b;
+  --text-muted: #5f6a6a;
 
   --radius-lg: 25px;
   --radius-sm: 8px;
